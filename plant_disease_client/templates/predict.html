@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Predict result</title>
+    </head>
+    <body>
+        <div id="result-predict">
+            <h5>Resultado: </h5>
+            
+            <div id="feedback">
+                <form action="/feedback" method="POST">
+                    <label for="result-feedback">Acertei?</label>
+                    <div id="options">
+                        SIM <input type="radio" value="SIM" name="result-feedback">
+                        NÃO <input type="radio" value="NAO" name="result-feedback">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
